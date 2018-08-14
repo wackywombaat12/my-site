@@ -1,0 +1,43 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: #2f2f2f;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-text {
+    color: #cacaca;
+}
+
+.layout {
+    text-align: center;
+}
+
+.work-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.work-card {
+    width: 400px;
+    display: inline-flex;
+    margin: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.work-card img {
+    width: 100%;
+}
